@@ -1,0 +1,3 @@
+There is no exception 
+Note that this is specified in terms of read() and write().
+Writes can be serialized with respect to other reads and writes.

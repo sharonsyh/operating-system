@@ -1,0 +1,4 @@
+int i=0;
+char *sArr[30] = { NULL, };
+har *ptr = strtok(argv[1], " ");
+char *s[30] = { NULL, };
