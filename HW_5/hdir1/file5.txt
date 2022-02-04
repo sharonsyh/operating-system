@@ -1,0 +1,5 @@
+The following error conditions are added for operations on sockets: [EAGAIN], [EWOULDBLOCK], [ECONNRESET], [ENOTCONN], and [EPIPE].
+
+The [EIO] error is made optional.
+
+The [ENOBUFS] error is added for sockets.

@@ -1,0 +1,14 @@
+#include <sys/types.h>
+#include <string.h>
+...
+char buf[20];
+size_t nbytes;
+ssize_t bytes_written;
+int fd;
+...
+strcpy(buf, "This is a test\n");
+nbytes = strlen(buf);
+
+INCLUDE
+
+bytes_written = write(fd, buf, nbytes);

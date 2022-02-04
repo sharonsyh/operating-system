@@ -1,0 +1,9 @@
+The [EIO] error condition is added.
+
+The [EPIPE] error condition is added for when a pipe has only one end open.
+
+The [ENXIO] optional error condition is added.
+
+Text referring to sockets is added to the DESCRIPTION.
+
+and and adn and and
